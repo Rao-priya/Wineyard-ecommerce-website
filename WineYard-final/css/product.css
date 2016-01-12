@@ -1,0 +1,110 @@
+#main{
+  width: 80%; height:auto;  margin-top: 10%;  margin-left: 5.2%; margin-bottom:5%; padding-bottom:10px;
+  font-family:Tahoma, Geneva, sans-serif;// cursive;
+}
+
+#prodImg{
+    float:left;
+    padding:10px;
+}
+
+#prodInfo{
+  width:250px;
+  height: auto;
+  float:left;
+  padding-left:50px;
+}
+#prodName{
+  color: darkred;
+  font-size:20px;
+}
+#prodInfo span{
+  /*font-size:10px;*/
+}
+#cartForm{
+  width:200px;
+  height: auto;
+  margin-left:700px;
+  margin-top:100px;
+  padding: 20px;
+  border: 2px solid #B8B894;
+  border-radius: 20px;
+}
+
+#cartForm td{
+  padding:5px;
+}
+
+.container{
+  clear:both;
+			width: 675px;
+      height: auto;
+      margin-left:265px;
+		}
+
+    .addtocartBtn {
+        background-color: darkred;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size:14px;
+        float: left;
+        border-radius: 7px;
+        height: 30px;
+        width: 100px;
+    }
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+			color: white;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+      height: 15px;
+		}
+
+		ul.tabs li.current{
+			background-color: #B8B894;
+			color: white;
+		}
+
+		.tab-content{
+			display: none;
+			background-color: #B8B894;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+    #lblShipping{
+      text-decoration: underline;
+    }
+
+    #imgID{
+      width:220px;
+      height:220px;
+      margin-left:0px;
+      padding-left:0px;
+    }
+
+    .lblNoRecord{
+      margin-left: 100px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+      color: darkred;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    footer {
+      clear: both;
+      padding-top: 0px;
+      width:100%;
+    }

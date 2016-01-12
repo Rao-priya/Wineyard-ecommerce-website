@@ -1,0 +1,94 @@
+#main{
+  width: 80%; height:auto;  margin-top: 10%;  margin-left: 5.2%; margin-bottom:5%; padding-bottom:50px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+
+button{
+  color: white;
+ background-color: firebrick;
+  border-radius: 4px;
+  margin-left:30px;
+}
+
+#filter{
+    padding-left:10px;
+      background-color: darkred;
+      width: 200px;
+      height: 400px;
+      text-align: left;
+      float: left;
+      //position: fixed;
+      color:white;
+      font-size:15px;
+}
+
+hr {
+   clear: both;
+   background-color: #B8B894;
+   height: 1px;
+   border-width: 0;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   margin-right:10px;
+}
+
+#section {
+float: left;
+text-align: center;
+}
+#prodDetails{
+  width: 250px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+#imgID{
+  width:200px;
+  height:200px;
+  margin-left:0px;
+  padding-left:25px;
+}
+
+#tlbData{
+width:auto;
+text-align: center;
+}
+
+#tlbData td{
+padding-bottom: 30px;
+}
+
+
+/* unvisited link */
+#details:link,:visited {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/* mouse over link */
+#details:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* selected link */
+#details:active {
+  text-decoration: none;
+  color: black;
+}
+
+#lblNoRecord{
+  margin-left: 250px;
+  padding-left:20px;
+  padding-top:20px;
+  color: darkred;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  clear: both;
+  padding-top: 30px;
+}
